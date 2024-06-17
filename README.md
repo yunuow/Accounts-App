@@ -1,2 +1,6 @@
 # Accounts-App
+[![Author: Razirp](https://img.shields.io/badge/author-Razirp-cc0000)](https://github.com/Razirp) [![License](https://img.shields.io/github/license/Razirp/Le-Vent-Chat)](https://github.com/Razirp/Le-Vent-Chat/blob/main/LICENSE) [![Language: C++](https://img.shields.io/badge/Language-C%2B%2B-blue)](https://cppreference.com/) [![Built with Qt 5.12](https://img.shields.io/badge/Built%20with-Qt%205.12-70c961?logo=qt)](https://www.qt.io/qt-5-12) [![GitHub release](https://img.shields.io/github/v/release/Razirp/Le-Vent-Chat?color=660099)](https://github.com/Razirp/Le-Vent-Chat/releases) [![Demo Video](https://img.shields.io/badge/Demo%20Video-bilibili-51ade8?logo=bilibili&logoColor=white&link=https://www.bilibili.com/video/BV1HQ4y1Q7sx/?spm_id_from=333.999.0.0&vd_source=1af32f786844d78a3c3bd08a1820cdc1)](https://www.bilibili.com/video/BV1HQ4y1Q7sx/?spm_id_from=333.999.0.0&vd_source=1af32f786844d78a3c3bd08a1820cdc1) ![HitCount](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2FRazirp%2FLe-Vent-Chat.json%3Fcolor%3Dff9900) [![GitHub stars](https://img.shields.io/github/stars/Razirp/Le-Vent-Chat)](https://github.com/Razirp/Le-Vent-Chat/stargazers)
+
+> 一个基于 Qt 5.12 的即时通讯软件前后端。
+> 
 An APP source code with accounting and display functions

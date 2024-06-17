@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="20dp"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/item_main_top_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/month_out" />
+
+        <TextView
+            android:id="@+id/item_main_top_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_main_top_tv1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="￥ 0"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item_main_top_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="110dp"
+            android:layout_toRightOf="@+id/item_main_top_tv1"
+            android:text="@string/month_in" />
+
+        <TextView
+            android:id="@+id/item_main_top_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_main_top_tv2"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/item_main_top_tv1"
+            android:text="￥ 0"
+            android:textColor="@color/black"
+            android:textSize="24.5sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item_main_top_budget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_main_top_out"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/item_main_top_tv3"
+            android:text="￥ 0"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/item_main_top_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_main_top_out"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="0dp"
+            android:textColor="@color/blue_1"
+            android:text="@string/budget" />
+
+        <TextView
+            android:id="@+id/item_main_top_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_main_top_tv3"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/blue_1"
+            android:textSize="14dp"
+            android:text="勤俭是一种美德，总之就是不要乱花钱知道了吗？" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_main_top_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="今日支出 ￥ 0  收入 ￥ 0"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
