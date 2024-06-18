@@ -15,7 +15,7 @@ A source code and packaged APK file for an accounting book APP based on Android 
 
 （1）本月支出和本月收入
 
-![image-20240618154229033](.\pic\image-20240618154229033.png)
+![image-20240618154229033](./pic/image-20240618154229033.png)
 
 上图所示为主界面视图（mainActivity），其中，左图是仅设置了预算金额的视 图，右图为添加了一部分记账信息的视图。
 
@@ -23,7 +23,7 @@ A source code and packaged APK file for an accounting book APP based on Android 
 
 （2）预算剩余及提醒
 
-![image-20240618154443093](.\pic\image-20240618154443093.png)
+![image-20240618154443093](./pic/image-20240618154443093.png)
 
 预算剩余界面内容是根据你所设定的预算金额减去本月支出得到的，同时下 面有相应的提示语句，提醒你要控制住自己的钱包。
 
@@ -31,9 +31,9 @@ A source code and packaged APK file for an accounting book APP based on Android 
 
 同时，为了兼备提醒功能，在预算下面有一个 text 显示，会根据预算金额的 剩余比例显示不同的提醒，如下图：
 
-![image-20240618154532424](.\pic\image-20240618154532424.png)
+![image-20240618154532424](./pic/image-20240618154532424.png)
 
-![image-20240618154556791](.\pic\image-20240618154556791.png)
+![image-20240618154556791](./pic/image-20240618154556791.png)
 
 （3）本日收入和本日支出，及主界面的删除功能
 
@@ -41,13 +41,13 @@ A source code and packaged APK file for an accounting book APP based on Android 
 
 如果想要删除账本信息，可以通过长按显示的账本信息，会弹出“提示 信息 ”：确定删除此条记录？点击确定后，该条账本信息会被永久删除。如下图所示：
 
-![image-20240618154625559](.\pic\image-20240618154625559.png)
+![image-20240618154625559](./pic/image-20240618154625559.png)
 
 二、记账界面（RecordActivity）
 
 记账界面分为支出和收入两个界面，可以通过滑动互相切换。如下图所示:
 
-![image-20240618154748943](.\pic\image-20240618154748943.png)
+![image-20240618154748943](./pic/image-20240618154748943.png)
 
 当点击账本中所显示的不同图标时，账本的类型也随着变化，被选中的图标 将由灰色变为淡红色
 
@@ -55,9 +55,9 @@ A source code and packaged APK file for an accounting book APP based on Android 
 
 当点击下图红框区域时，将弹出含有日历和待输入时间的对话框，可以在日 历中选择具体日期，然后输入具体时间，点击取消将失去本次修改，点击确定将 成功修改时间（注：时间一栏可以空缺不填，将默认为 00:00）。如下图所示:
 
-![image-20240618154815464](.\pic\image-20240618154815464.png)
+![image-20240618154815464](./pic/image-20240618154815464.png)
 
-![image-20240618154843520](.\pic\image-20240618154843520.png)
+![image-20240618154843520](./pic/image-20240618154843520.png)
 
 三、搜索页面（SearchActivity）
 
@@ -71,4 +71,4 @@ A source code and packaged APK file for an accounting book APP based on Android 
 
 如下图所示：
 
-![image-20240618154902353](.\pic\image-20240618154902353.png)
+![image-20240618154902353](./pic/image-20240618154902353.png)
